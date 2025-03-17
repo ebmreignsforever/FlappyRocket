@@ -1700,7 +1700,7 @@ gdjs.copyArray(runtimeScene.getObjects("MetalRedBar"), gdjs.GameCode.GDMetalRedB
 gdjs.GameCode.GDExplosion1Objects2.length = 0;
 
 {for(var i = 0, len = gdjs.GameCode.GDMetalRedBarObjects2.length ;i < len;++i) {
-    gdjs.GameCode.GDMetalRedBarObjects2[i].SetValue(gdjs.GameCode.GDMetalRedBarObjects2[i].Value((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) + (0.5), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+    gdjs.GameCode.GDMetalRedBarObjects2[i].SetValue(gdjs.GameCode.GDMetalRedBarObjects2[i].Value((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) + (0.8), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }{for(var i = 0, len = gdjs.GameCode.GDFuelObjects2.length ;i < len;++i) {
     gdjs.GameCode.GDFuelObjects2[i].deleteFromScene(runtimeScene);
